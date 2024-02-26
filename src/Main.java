@@ -18,6 +18,9 @@ public class Main {
         newCompany.addCompanyProduct(newProduct);
         System.out.println(newCompany.toString());
 
+        User newUser = new User("Asim","Avutmuslu","ahmedavutmus@yahoo.com","test123","os Kolorowe 9/35");
+        System.out.println(newUser.toString());
+
 
 
 

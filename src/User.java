@@ -65,4 +65,9 @@ public class User {
         return userAdress;
     }
 
+
+    @Override public String toString()
+    {
+        return "User Name: " + getUserName() + "\n" + "User Surname: " + getUserSurname() + "\n" + "User Mail: " + getUserMail() + "\n" + "User Password: " + getUserPassword() + "\n" + "User Adress: " + getUserAdress();
+    }
 }
